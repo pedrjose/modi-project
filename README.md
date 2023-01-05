@@ -1,6 +1,6 @@
 <div align="center">
 <h1><img src="https://user-images.githubusercontent.com/83767995/210871450-a24ed34d-b1c5-4384-bd9a-4339072275e7.png" width="180" height="180"; margin: 0 auto></h1>
-<p>Modi! is a open source library of public domain audiovisual content available on YouTube.</p>
+<p><b><i>Modi!</i></b> is a open source library of public domain audiovisual content available on YouTube.</p>
 </div>
 
 <div align="center">
