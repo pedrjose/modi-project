@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main-content p {
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+.text-content {
+    margin-left: 1.3rem;
+    display: block;
+}
+
+.text-content2 {
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+    display: block;
+}
+
+.text-content3 {
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+    margin-bottom: -.7rem;
+    display: block;
+}
+
+.text-content4 {
+    margin-top: -1rem;
+    margin-left: 1.3rem;
+    margin-bottom: -.7rem;
+    display: block;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-spacing {
+    height: 1px;
+}
+
+.section-settings {
+    min-height: 100vh;
+    padding: 0 0 0 0;
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 6.5rem 0 0 0;
+}
+
+.main-content2 {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 1.5rem 0 0 0;
+}
+
+.main-content3 {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: .67rem 0 0 0;
+}
+
+.block1-content {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.block2-content {
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block3-content {
+    margin-top: 1.7rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.element-settings {
+    margin-left: 1.3rem;
+    margin-right: 1.5rem;
+}
+
+.new-element-settings {
+    margin-top: 1.5rem;
+    margin-left: 1.3rem;
+    margin-right: 1.5rem;
+}
+
+.element-settings-top {
+    margin-top: -0.6rem;
+    margin-left: 1.3rem;
+    margin-right: 1.5rem;
+}
+
+.last-element-settings {
+    margin-left: 1.3rem;
+    margin-right: 1.5rem;
+    background: rgba(0, 0, 0, 1)
+}

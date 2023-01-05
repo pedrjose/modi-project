@@ -1,0 +1,1288 @@
+.menu {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu h1 {
+    font-size: 2.5rem;
+    color: black;
+    margin-left: 1rem;
+}
+
+.menu ul {
+    font-family: 'Titillium Web', sans-serif;
+    list-style: none;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.menu ul li a {
+    display: block;
+    color: black;
+    padding: 2rem;
+}
+
+.menu ul li a {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.menu ul li a:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.section1-bg {
+    background-image: url('../img/movies.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.section1-content h2, .section1-content p {
+    text-align: center;
+}
+
+.section1-content {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.section1-text-content {
+    margin-top: 24.5%;
+    width: 40%;
+    height: 20%;
+    border-radius: 15px;
+    color: white;
+    background: rgba(0, 0, 0, .6);
+}
+
+.section2-bg {
+        background-image: url('../img/popcorn.jpg');
+        background-size: cover;
+        background-position: center center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-left: 3rem;
+}
+
+.section2-content {
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section2-content h2 {
+    margin-bottom: 1.3rem;
+    width: 8rem;
+    height: 4.5rem;
+    color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid h3, .grid p {
+    color: white;
+}
+
+.grid h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+.grid a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-settings a {
+    opacity:1;
+    
+}
+
+.section-settings a:hover {
+    opacity:0.5;
+}
+
+.ad-section-bg {
+    background: rgba(0, 0, 0, .9);
+}
+
+.animation-section-bg {
+    background: rgba(0, 0, 0, .7);
+}
+
+.superman-series {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/superman.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.popeye-series {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/Popeye.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.night-galatic {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/Night-on-the-Galactic-Railroad.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.gullivers-travels {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/gullivers-travels.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.betty-pop {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/betty-boop.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.space-adventure-cobra {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/space-adventure-cobra.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.apocalypse-zero {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/apocalypse-zero.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.megazone-23 {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/megazone-23.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.raiders-of-galaxy {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/raiders-of-galaxy.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.captain-of-cosmos {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/captain-of-cosmos.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.king-kong {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/king-kong.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.captain-fathom {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/captain-fathom.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.robotix {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/robotix.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.techno-police {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/techno-police.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.ultraman {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/ultraman.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.queen-of-the-amazons {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/queen-of-the-amazons.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.tarzan-the-fearless {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/tarzan-the-fearless.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.jungle-cavalcade {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/jungle-cavalcade.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.tarzan-and-the-trappers {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/tarzan-and-the-trappers.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.the-adventures-of-captain-marvel {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-adventures-of-captain-marvel.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.tornado {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/tornado.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.jungle-book {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/jungle-book.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.queen-of-the-jungle {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/queen-of-the-jungle.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.beyond-the-law {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/beyond-the-law.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.dead-man {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/dead-man.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.gunfighters-moon {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/gunfighters-moon.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.kingking-godzilla {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/kingking-godzilla.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.pursuit-to-algiers {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/pursuit-to-algiers.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.the-pearl-of-death {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-pearl-of-death.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.voice-terror {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/voice-terror.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.spider-woman {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/spider-woman.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.in-washington {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/in-washington.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.baskervilles {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/baskervilles.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.jungle-jim {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/jungle-jim.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.tarzans-revenge {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/tarzans-revenge.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.death-rides-a-horse {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/death-rides-a-horse.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.the-lost-jungle {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-lost-jungle.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.king-of-the-jungle {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/king-of-the-jungle.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.two-brothers {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/two-brothers.png);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.winterhawk {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/winterhawk.jpg);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.fury-of-the-congo {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/fury-of-the-congo.png);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.pygmy-island {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/pygmy-island.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.captive-girl {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/captive-girl.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.the-lost-tribe {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-lost-tribe.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.the-house-of-fear {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-house-of-fear.png);
+    background-size: cover;
+    background-position: center center;  
+}
+/**/
+.the-enemy-below {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-enemy-below.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.for-vengeance {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/for-vengeance.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.dragonwyck {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/dragonwyck.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.king-solomons-mines {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/king-solomons-mines.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.good-bad-ugly {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/good-bad-ugly.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.terror-by-night {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/terror-by-night.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.south-of-louis {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/south-of-louis.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.the-lion-of-marks {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-lion-of-marks.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.war-of-the-monsters {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/war-of-the-monsters.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.destroy-all-planets {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/destroy-all-planets.png);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.johnny-gun {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/johnny-gun.png);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bluebeard {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/bluebeard.png);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.the-phantom-creeps {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the\ phantom\ creeps.jpg);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.study-in-terror {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/study-in-terror.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.green-hornet {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/green-hornet.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.candy {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/candy.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.curse-mummy {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/curse-mummy.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.captain-america {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/captain-america.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.the-giant-gila {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-giant-gila.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.the-lost-world {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-lost-world.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.space-probe-taurus {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/space-probe-taurus.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.mars-invaded {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/mars-invaded.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.assignment {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/assignment.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.fear-and-desire {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/fear-and-desire.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.house-92 {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/92-house.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.decision-before-dawn {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/decision-before-dawn.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pickup-south-street {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/pickup-south-street.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.the-big-combo {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-big-combo.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.deadline-usa {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/deadline-usa.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.agent-505 {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/agent-505.png);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.the-quiller-memorandum {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-quiller-memorandum.png);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.jigsaw {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/jigsaw.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.impact {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/impact.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.smith {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/smith.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.johnny-clock {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/johnny-clock.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.new-tarzan {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/new-tarzan.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.war-of-the-satellites {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/war-of-the-satellites.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.destination-space {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/destination-space.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.red-planet-mars {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/red-planet-mars.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.first-spaceship-on-venus {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/first-spaceship-on-venus.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.notorious {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/notorious.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.battle-of-the-worlds {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/battle-of-the-worlds.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.unknown-world {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/unknown-world.png);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.invasion-of-the-saucer-men {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/invasion-of-the-saucer-men.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.flying-saucers {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/flying-saucers.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.brain-eaters {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/brain-eaters.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.carnival-of-souls {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/carnival-of-souls.png);
+    background-size: cover;
+    background-position: center center;   
+}
+
+.my-man-godfrey {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/my-man-godfrey.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.last-man {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/last-man.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.gold-rush {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/gold-rush.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.dementia-13 {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/dementia-13.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.phantom-opera {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/phantom-opera.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.his-girl-friday {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/his-girl-friday.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.charade {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/charade.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.the-general {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-general.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.night-dead {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/night-dead.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.admiral-lady {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/admiral-lady.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.war-army {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/war-army.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.the-bashful-bachelor {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/the-bashful-bachelor.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.behave-yourself {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/behave-yourself.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.bowery-blitzkrieg {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/bowery-blitzkrieg.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.earthworm-tractors {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/earthworm-tractors.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.half-sunrise {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/half-sunrise.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.joke-son {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/joke-son.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.jack-and-the-beanstalk {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/jack-and-the-beanstalk.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.love-laughs {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/love-laughs.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.three-broadway-girls {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/three-broadway-girls.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.notredame {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/notredame.png);
+    background-size: cover;
+    background-position: center center; 
+}
+
+.star-born {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/star-born.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.martha-ivers {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/martha-ivers.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.dance-of-life {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/dance-of-life.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.rage-of-paris {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/rage-of-paris.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.kansas-city-confidential {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/kansas-city-confidential.png);
+    background-size: cover;
+    background-position: center center;    
+}
+
+.penny-serenade {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/penny-serenade.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.strangers-meet {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/strangers-meet.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.just-block-black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    color:black;
+    border-radius: 15px;
+    width: 30%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.just-block-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    color: white;
+    border-radius: 15px;
+    width: 30%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.tarzan-collection {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/tarzan-collection.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.sherlock-collection {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/sherlock-collections.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.monsters-collection {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/monsters-collection.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.western-collection {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/western-collection.png);
+    background-size: cover;
+    background-position: center center;  
+}
+
+.fiction-collection {
+    width: 14rem;
+    height: 8rem;
+    border-radius: 15px;
+    background-image: url(../img/fiction-collection.png);
+    background-size: cover;
+    background-position: center center;  
+}
