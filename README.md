@@ -23,5 +23,5 @@ Designed in streaming model, ***Modi!*** has the objective of gather public doma
 
 <div>
 <h2>Enjoy!</h2>
-<p><b>Go to <i>Modi!</i></b>: streammodi.web.app</p>
+<p><b>Go to <i>Modi!</i></b>: https://streammodi.web.app/</p>
 </div>
